@@ -26,3 +26,13 @@
 #Para cada caso de teste, imprima um inteiro — a quantidade mínima de dinheiro necessária para fornecer acesso ao curso online para todos os n
 # estudantes.
 ```
+t = int(input())
+
+for _ in range(t):
+    n, a, b = map(int, input().split())
+
+    custo_grupo = min(b, 3 * a)
+
+    resposta = (n // 3) * custo_grupo + (n % 3) * a
+
+    print(resposta)
