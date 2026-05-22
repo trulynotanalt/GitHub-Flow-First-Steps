@@ -1,1 +1,1 @@
-ECHO est  ativado.
+Atividade 1 resolvida
