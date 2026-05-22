@@ -1,24 +1,28 @@
-#You have a group of n
- #students who need access to an online course. Two types of access keys are available in the store:
 
-#Individual key: costs a
- #dollars and gives access to one student.
-#Group key: costs b
- #dollars and gives access to a group of up to three students inclusive.
-#A group key can also be used for fewer students (one or two), and its price does not change.
+#Você tem um grupo de n
+# estudantes que precisam de acesso a um curso online. Existem dois tipos de chaves de acesso disponíveis na loja:
 
-#Your task is to determine the minimum amount of money needed to provide access to the online course for all n
-# students.
+#Chave individual: custa a
+# dólares e dá acesso a um estudante.
 
-#Input
-#The first line contains one integer t
-# (1≤t≤104
-#) — the number of test cases.
+#Chave em grupo: custa b
+# dólares e dá acesso a um grupo de até três estudantes, inclusive.
 
-#Each test case consists of one line containing three integers n,a,b
-# (1≤n,a,b≤108
-#) — the number of students, the cost of an individual key, and the cost of a group key.
+#Uma chave em grupo também pode ser usada para menos estudantes (um ou dois), e seu preço não muda.
 
-#Output
-#For each test case, output one integer — the minimum amount of money needed to provide access to the online course for all n
- #students.
+#Sua tarefa é determinar a quantidade mínima de dinheiro necessária para fornecer acesso ao curso online para todos os n
+# estudantes.
+
+#Entrada
+#A primeira linha contém um inteiro t
+# (1≤t≤10⁴)
+# — o número de casos de teste.
+
+#Cada caso de teste consiste em uma linha contendo três inteiros n, a, b
+# (1≤n,a,b≤10⁸)
+# — o número de estudantes, o custo de uma chave individual e o custo de uma chave em grupo.
+
+#Saída
+#Para cada caso de teste, imprima um inteiro — a quantidade mínima de dinheiro necessária para fornecer acesso ao curso online para todos os n
+# estudantes.
+```
